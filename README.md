@@ -79,6 +79,18 @@ creates or repairs it if any part is missing: the group file, the two edits in `
 from Caelestia's own copy if they were mangled), and an enabled `plugins` entry in `bar.entries`.
 It ends with `Plugins bar section: OK`, or stops and says what's wrong.
 
+## Placement (optional)
+
+With [caelestia-plugin-switcher](../caelestia-plugin-switcher) installed, this plugin can also be placed
+in the dashboard's top strip instead of the right bar. Open **Nexus → Dashboard → Plugin switches**
+and pick for this plugin:
+
+- **Off**: hidden everywhere
+- **Right bar**: the icon in the plugin group above the clock (default)
+- **Top bar**: a tab in the dashboard, next to LocalSend and Notes
+
+The tab is a fixed 840×480 pane with the same content as the popout. The tab uses the same Syncthing logo as the bar icon (full colour or tinted, following the icon style).
+
 ## Uninstall
 
 ```bash
